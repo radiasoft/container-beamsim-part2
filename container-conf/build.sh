@@ -4,5 +4,5 @@ build_travis_trigger_next=( beamsim )
 
 build_as_run_user() {
     cd "$build_guest_conf"
-    curl radia.run | codes_dir="$(pwd)/codes" bash -s opal warp shadow3
+    curl radia.run | codes_dir="$(pwd)/codes" bash -s code opal warp shadow3
 }
