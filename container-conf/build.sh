@@ -5,5 +5,6 @@ build_is_public=1
 
 build_as_run_user() {
     cd "$build_guest_conf"
-    install_repo_eval code pyOPALTools trilinos opal
+    # opal-1.9 is failing so do nothing for now
+    #install_repo_eval code pyOPALTools trilinos opal
 }
